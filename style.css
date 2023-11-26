@@ -7,6 +7,15 @@
     text-align: center;
     font-family: 'Gluten', cursive;
 }
+@media only screen and (max-width: 600px) {
+ .mid{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+}
 .mid{
     display: flex;
     justify-content: center;
