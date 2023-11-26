@@ -4,8 +4,8 @@ var score1=0;
 var score2=0;
 
 function names(){
-    p1=prompt("Enter name of player1");
-    p2=prompt("Enter name of player1");
+    p1=prompt("Enter name of player 1");
+    p2=prompt("Enter name of player 2");
 document.querySelectorAll("p")[0].innerHTML=p1;
 document.querySelectorAll("p")[1].innerHTML=p2;
 document.querySelectorAll("p")[2].innerHTML=(p1+" : "+score1);
